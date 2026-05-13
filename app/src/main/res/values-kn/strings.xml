@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">ನಿಮ್ಮ ಗುರು</string>
+    <string name="tagline">ಸಮುದಾಯ ಮಾರ್ಗದರ್ಶನ</string>
+    <string name="gyaan_daan">ಜ್ಞಾನ-ದಾನ</string>
+
+    <!-- Auth -->
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="confirm_password">ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="phone">ಫೋನ್ ನಂಬರ್</string>
+    <string name="forgot_password">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿದ್ದೀರಾ?</string>
+    <string name="forgot_password_title">ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ</string>
+    <string name="forgot_password_message">ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸ ನಮೂದಿಸಿ. ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು ಲಿಂಕ್ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="send_reset_link">ಲಿಂಕ್ ಕಳುಹಿಸಿ</string>
+    <string name="cancel">ರದ್ದು ಮಾಡಿ</string>
+    <string name="register_now">ಖಾತೆ ಇಲ್ಲವೇ? ನೋಂದಾಯಿಸಿ</string>
+    <string name="already_have_account">ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="continue_as_student">ವಿದ್ಯಾರ್ಥಿಯಾಗಿ ಮುಂದುವರಿಸಿ</string>
+    <string name="continue_as_guru">ಗುರುವಾಗಿ ಮುಂದುವರಿಸಿ</string>
+    <string name="or_divider">ಅಥವಾ</string>
+    <string name="community_mentorship">ಸಮುದಾಯ ಮಾರ್ಗದರ್ಶನ</string>
+
+    <!-- Home -->
+    <string name="welcome_back">ಮರಳಿ ಸ್ವಾಗತ!</string>
+    <string name="search_hint">ಕೌಶಲ್ಯ ಅಥವಾ ಮಾರ್ಗದರ್ಶಕರನ್ನು ಹುಡುಕಿ…</string>
+    <string name="nearby_gurus">ಹತ್ತಿರದ ಗುರುಗಳು</string>
+    <string name="view_all">ಎಲ್ಲ ನೋಡಿ</string>
+    <string name="wall_of_fame">ಗೌರವ ಫಲಕ</string>
+    <string name="top_mentors">ಅಗ್ರ ಮಾರ್ಗದರ್ಶಕರು</string>
+    <string name="chip_all_skills">ಎಲ್ಲ ಕೌಶಲ್ಯ</string>
+    <string name="chip_math">ಗಣಿತ</string>
+    <string name="chip_science">ವಿಜ್ಞಾನ</string>
+    <string name="chip_english">ಆಂಗ್ಲ</string>
+    <string name="chip_carpentry">ಬಡಗಿ ಕೆಲಸ</string>
+    <string name="chip_arts">ಕಲೆ</string>
+    <string name="chip_computer">ಕಂಪ್ಯೂಟರ್</string>
+
+    <!-- Guru Card -->
+    <string name="years_experience">%d ವರ್ಷಗಳ ಅನುಭವ</string>
+    <string name="km_away">%.1f ಕಿ.ಮೀ ದೂರ</string>
+    <string name="available">ಲಭ್ಯವಿದ್ದಾರೆ</string>
+    <string name="busy">ಒಡಲಿಲ್ಲ</string>
+    <string name="rating">%.1f ★</string>
+
+    <!-- Search -->
+    <string name="search_title">ಮಾರ್ಗದರ್ಶಕರನ್ನು ಹುಡುಕಿ</string>
+    <string name="search_results">%d ಫಲಿತಾಂಶಗಳು</string>
+    <string name="no_results">ಯಾವುದೇ ಮಾರ್ಗದರ್ಶಕರು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="filters">ಫಿಲ್ಟರ್</string>
+    <string name="search_by_name_skill">ಹೆಸರು, ಕೌಶಲ್ಯ ಅಥವಾ ಸ್ಥಳದಿಂದ ಹುಡುಕಿ…</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">ಮುಂಬರುವ ಸೆಷನ್‌ಗಳು</string>
+    <string name="join_session">ಸೆಷನ್‌ಗೆ ಸೇರಿ</string>
+    <string name="attendees">%1$d/%2$d ಭಾಗವಹಿಸಿದವರು</string>
+    <string name="by_guru">%s ಅವರಿಂದ</string>
+    <string name="venue">ಸ್ಥಳ</string>
+    <string name="no_sessions">ಮುಂಬರುವ ಸೆಷನ್‌ಗಳಿಲ್ಲ</string>
+
+    <!-- Profile -->
+    <string name="profile_title">ನನ್ನ ಪ್ರೊಫೈಲ್</string>
+    <string name="edit_profile">ಪ್ರೊಫೈಲ್ ತಿದ್ದಿ</string>
+    <string name="settings_title">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    <string name="language_setting">ಭಾಷೆ</string>
+    <string name="notifications_setting">ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="help_support">ಸಹಾಯ ಮತ್ತು ಬೆಂಬಲ</string>
+    <string name="language_english">English</string>
+    <string name="language_kannada">ಕನ್ನಡ (Kannada)</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿ</string>
+    <string name="skills">ಕೌಶಲ್ಯ / ವಿಷಯಗಳು</string>
+    <string name="experience">ಅನುಭವ (ವರ್ಷಗಳು)</string>
+    <string name="availability">ಲಭ್ಯತೆ</string>
+    <string name="location">ಸ್ಥಳ / ಗ್ರಾಮ</string>
+    <string name="bio">ಪರಿಚಯ</string>
+    <string name="preferred_language">ಆದ್ಯತೆಯ ಭಾಷೆ</string>
+    <string name="save_changes">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ</string>
+    <string name="change_photo">ಫೋಟೋ ಬದಲಾಯಿಸಿ</string>
+    <string name="photo_updated">ಪ್ರೊಫೈಲ್ ಫೋಟೋ ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="profile_saved">ಪ್ರೊಫೈಲ್ ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ</string>
+
+    <!-- Appreciation -->
+    <string name="write_appreciation">ಧನ್ಯವಾದ ಟಿಪ್ಪಣಿ ಬರೆಯಿರಿ…</string>
+    <string name="post_appreciation">ಪೋಸ್ಟ್ ಮಾಡಿ</string>
+    <string name="appreciation_posted">ಧನ್ಯವಾದ ಪೋಸ್ಟ್ ಮಾಡಲಾಗಿದೆ!</string>
+    <string name="thank_you_to">ಧನ್ಯವಾದ, %s!</string>
+
+    <!-- Errors -->
+    <string name="error_email_required">ಇಮೇಲ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="error_email_invalid">ಅಮಾನ್ಯ ಇಮೇಲ್ ಸ್ವರೂಪ</string>
+    <string name="error_password_required">ಪಾಸ್ವರ್ಡ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="error_password_short">ಪಾಸ್ವರ್ಡ್ ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳಿರಬೇಕು</string>
+    <string name="error_passwords_no_match">ಪಾಸ್ವರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="error_name_required">ಹೆಸರು ಅಗತ್ಯವಿದೆ</string>
+    <string name="error_phone_required">ಫೋನ್ ನಂಬರ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="error_generic">ಏನೋ ತಪ್ಪಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="error_network">ನೆಟ್‌ವರ್ಕ್ ದೋಷ. ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="reset_email_sent">ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ!</string>
+
+    <!-- Roles -->
+    <string name="role_student">ವಿದ್ಯಾರ್ಥಿ</string>
+    <string name="role_guru">ಗುರು</string>
+</resources>

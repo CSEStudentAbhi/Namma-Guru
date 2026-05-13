@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">NimmaGuru</string>
+    <string name="tagline">Community Mentorship</string>
+    <string name="gyaan_daan">Gyaan-Daan</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_title">Reset Password</string>
+    <string name="forgot_password_message">Enter your email address and we will send you a link to reset your password.</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="cancel">Cancel</string>
+    <string name="register_now">Don\'t have an account? Sign up</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+    <string name="continue_as_student">Continue as Student</string>
+    <string name="continue_as_guru">Continue as Guru</string>
+    <string name="or_divider">OR</string>
+    <string name="community_mentorship">Community Mentorship</string>
+
+    <!-- Home -->
+    <string name="welcome_back">Welcome back!</string>
+    <string name="search_hint">Search for skills or mentors…</string>
+    <string name="nearby_gurus">Nearby Gurus</string>
+    <string name="view_all">View All</string>
+    <string name="wall_of_fame">Wall of Fame</string>
+    <string name="top_mentors">Top Mentors</string>
+    <string name="chip_all_skills">All Skills</string>
+    <string name="chip_math">Math</string>
+    <string name="chip_science">Science</string>
+    <string name="chip_english">English</string>
+    <string name="chip_carpentry">Carpentry</string>
+    <string name="chip_arts">Arts</string>
+    <string name="chip_computer">Computer</string>
+
+    <!-- Guru Card -->
+    <string name="years_experience">%d years experience</string>
+    <string name="km_away">%.1f km away</string>
+    <string name="available">Available</string>
+    <string name="busy">Busy</string>
+    <string name="rating">%.1f ★</string>
+
+    <!-- Search -->
+    <string name="search_title">Search Mentors</string>
+    <string name="search_results">%d results found</string>
+    <string name="no_results">No mentors found</string>
+    <string name="filters">Filters</string>
+    <string name="search_by_name_skill">Search by name, skill, or location…</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">Upcoming Sessions</string>
+    <string name="join_session">Join Session</string>
+    <string name="attendees">%1$d/%2$d attendees</string>
+    <string name="by_guru">by %s</string>
+    <string name="venue">Venue</string>
+    <string name="no_sessions">No upcoming sessions</string>
+
+    <!-- Profile -->
+    <string name="profile_title">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings_title">Settings</string>
+    <string name="language_setting">Language</string>
+    <string name="notifications_setting">Notifications</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="language_english">English</string>
+    <string name="language_kannada">ಕನ್ನಡ (Kannada)</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="skills">Skills / Subjects</string>
+    <string name="experience">Experience (years)</string>
+    <string name="availability">Availability</string>
+    <string name="location">Location / Village</string>
+    <string name="bio">Bio</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="photo_updated">Profile photo updated</string>
+    <string name="profile_saved">Profile saved successfully</string>
+
+    <!-- Appreciation -->
+    <string name="write_appreciation">Write a thank-you note…</string>
+    <string name="post_appreciation">Post</string>
+    <string name="appreciation_posted">Thank you posted!</string>
+    <string name="thank_you_to">Thank you, %s!</string>
+
+    <!-- Errors -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Invalid email format</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_phone_required">Phone number is required</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Please check your internet connection.</string>
+    <string name="reset_email_sent">Password reset email sent!</string>
+
+    <!-- Roles -->
+    <string name="role_student">Student</string>
+    <string name="role_guru">Guru</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NimmaGuru Brand Colors -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="green_accent">#10B981</color>
+    <color name="green_dark">#059669</color>
+    <color name="orange_accent">#F59E0B</color>
+    <color name="orange_dark">#D97706</color>
+
+    <!-- Surface & Background -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EFF6FF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_link">#2563EB</color>
+
+    <!-- Status -->
+    <color name="status_available">#10B981</color>
+    <color name="status_busy">#94A3B8</color>
+    <color name="status_red">#EF4444</color>
+
+    <!-- Divider / Border -->
+    <color name="divider">#E2E8F0</color>
+    <color name="border">#CBD5E1</color>
+
+    <!-- Star rating -->
+    <color name="star_yellow">#F59E0B</color>
+
+    <!-- Shadow overlay -->
+    <color name="scrim">#80000000</color>
+</resources>

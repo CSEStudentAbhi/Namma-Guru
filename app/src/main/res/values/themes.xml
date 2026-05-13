@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.NimmaGuru" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/green_accent</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <!-- TextInputLayout -->
+        <item name="textInputStyle">@style/Widget.NimmaGuru.TextInputLayout</item>
+    </style>
+
+    <!-- Splash / No-action-bar screens -->
+    <style name="Theme.NimmaGuru.Splash" parent="Theme.NimmaGuru">
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+
+    <!-- TextInputLayout -->
+    <style name="Widget.NimmaGuru.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/border</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Primary Blue Button -->
+    <style name="Widget.NimmaGuru.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Green Button -->
+    <style name="Widget.NimmaGuru.Button.Green" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/green_accent</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Orange Button -->
+    <style name="Widget.NimmaGuru.Button.Orange" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/orange_accent</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Red/Logout Button -->
+    <style name="Widget.NimmaGuru.Button.Danger" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/status_red</item>
+        <item name="strokeColor">@color/status_red</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.NimmaGuru.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Chip style -->
+    <style name="Widget.NimmaGuru.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipBackgroundColor">@color/chip_bg_selector</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+        <item name="chipStrokeColor">@color/border</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.NimmaGuru.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_selector</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+</resources>
