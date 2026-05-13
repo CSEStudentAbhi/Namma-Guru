@@ -23,6 +23,8 @@
     <string name="already_have_account">Already have an account? Sign in</string>
     <string name="continue_as_student">Continue as Student</string>
     <string name="continue_as_guru">Continue as Guru</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE</string>
     <string name="or_divider">OR</string>
     <string name="community_mentorship">Community Mentorship</string>
 

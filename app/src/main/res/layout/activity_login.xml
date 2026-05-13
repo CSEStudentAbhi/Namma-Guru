@@ -141,6 +141,22 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
+                <!-- Google Sign In Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGoogleSignIn"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/sign_in_with_google"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    app:icon="@drawable/ic_google"
+                    app:iconGravity="textStart"
+                    app:iconTint="@null"
+                    app:strokeColor="@color/divider" />
+
                 <!-- OR Divider -->
                 <LinearLayout
                     android:layout_width="match_parent"
