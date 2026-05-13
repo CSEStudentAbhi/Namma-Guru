@@ -38,7 +38,19 @@ class SearchFragment : Fragment() {
     }
 
     private fun setupAdapter() {
-        guruAdapter = GuruAdapter()
+        guruAdapter = GuruAdapter { guru ->
+            val intent = android.content.Intent(requireContext(), com.example.nimma_guru.activities.GuruProfileActivity::class.java).apply {
+                putExtra("name", guru.name)
+                putExtra("skills", guru.skills.joinToString(", "))
+                putExtra("experience", guru.experience)
+                putExtra("availability", guru.availability)
+                putExtra("location", guru.location)
+                putExtra("photoUrl", guru.photoUrl)
+                putExtra("rating", guru.rating)
+                putExtra("isAvailable", guru.isAvailable)
+            }
+            startActivity(intent)
+        }
         binding.rvSearchResults.layoutManager = LinearLayoutManager(requireContext())
         binding.rvSearchResults.adapter = guruAdapter
     }

@@ -33,6 +33,12 @@ class SessionAdapter : ListAdapter<Session, SessionAdapter.SessionViewHolder>(Di
                         .collection("sessions")
                         .document(session.sessionId)
                         .update("attendees", session.attendees + 1)
+                        .addOnSuccessListener {
+                            android.widget.Toast.makeText(binding.root.context, "Joined session successfully!", android.widget.Toast.LENGTH_SHORT).show()
+                        }
+                        .addOnFailureListener {
+                            android.widget.Toast.makeText(binding.root.context, "Failed to join session", android.widget.Toast.LENGTH_SHORT).show()
+                        }
                 }
             }
         }

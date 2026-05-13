@@ -43,6 +43,10 @@ class HomeFragment : Fragment() {
         setupSearch()
         loadGurus()
         loadWallOfFame()
+
+        binding.tvViewAll.setOnClickListener {
+            requireActivity().findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(com.example.nimma_guru.R.id.bottomNavigationView)?.selectedItemId = com.example.nimma_guru.R.id.searchFragment
+        }
     }
 
     private fun setupUserGreeting() {
@@ -57,7 +61,19 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupAdapters() {
-        guruAdapter = GuruAdapter()
+        guruAdapter = GuruAdapter { guru ->
+            val intent = android.content.Intent(requireContext(), com.example.nimma_guru.activities.GuruProfileActivity::class.java).apply {
+                putExtra("name", guru.name)
+                putExtra("skills", guru.skills.joinToString(", "))
+                putExtra("experience", guru.experience)
+                putExtra("availability", guru.availability)
+                putExtra("location", guru.location)
+                putExtra("photoUrl", guru.photoUrl)
+                putExtra("rating", guru.rating)
+                putExtra("isAvailable", guru.isAvailable)
+            }
+            startActivity(intent)
+        }
         binding.rvNearbyGurus.layoutManager = LinearLayoutManager(requireContext())
         binding.rvNearbyGurus.adapter = guruAdapter
 

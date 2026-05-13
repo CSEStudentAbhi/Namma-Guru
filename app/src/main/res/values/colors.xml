@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- NimmaGuru Brand Colors -->
-    <color name="primary">#2563EB</color>
-    <color name="primary_dark">#1D4ED8</color>
-    <color name="green_accent">#10B981</color>
-    <color name="green_dark">#059669</color>
-    <color name="orange_accent">#F59E0B</color>
-    <color name="orange_dark">#D97706</color>
+    <!-- NimmaGuru Brand Colors: Modern Indigo/Purple/Rose Palette -->
+    <color name="primary">#6366F1</color>        <!-- Indigo 500 -->
+    <color name="primary_dark">#4338CA</color>   <!-- Indigo 700 -->
+    <color name="green_accent">#10B981</color>   <!-- Emerald 500 -->
+    <color name="green_dark">#059669</color>     <!-- Emerald 600 -->
+    <color name="orange_accent">#F43F5E</color>  <!-- Rose 500 -->
+    <color name="orange_dark">#E11D48</color>    <!-- Rose 600 -->
 
     <!-- Surface & Background -->
-    <color name="background">#F8FAFC</color>
-    <color name="surface">#FFFFFF</color>
-    <color name="surface_variant">#EFF6FF</color>
+    <color name="background">#F1F5F9</color>     <!-- Slate 100 -->
+    <color name="surface">#FFFFFF</color>        <!-- White -->
+    <color name="surface_variant">#EEF2FF</color><!-- Indigo 50 -->
 
     <!-- Text -->
-    <color name="text_primary">#1E293B</color>
-    <color name="text_secondary">#64748B</color>
-    <color name="text_white">#FFFFFF</color>
-    <color name="text_link">#2563EB</color>
+    <color name="text_primary">#0F172A</color>   <!-- Slate 900 -->
+    <color name="text_secondary">#475569</color> <!-- Slate 600 -->
+    <color name="text_white">#FFFFFF</color>     <!-- White -->
+    <color name="text_link">#6366F1</color>      <!-- Indigo 500 -->
 
     <!-- Status -->
-    <color name="status_available">#10B981</color>
-    <color name="status_busy">#94A3B8</color>
-    <color name="status_red">#EF4444</color>
+    <color name="status_available">#10B981</color> <!-- Emerald 500 -->
+    <color name="status_busy">#64748B</color>      <!-- Slate 500 -->
+    <color name="status_red">#EF4444</color>       <!-- Red 500 -->
 
     <!-- Divider / Border -->
-    <color name="divider">#E2E8F0</color>
-    <color name="border">#CBD5E1</color>
+    <color name="divider">#E2E8F0</color>        <!-- Slate 200 -->
+    <color name="border">#CBD5E1</color>         <!-- Slate 300 -->
 
     <!-- Star rating -->
-    <color name="star_yellow">#F59E0B</color>
+    <color name="star_yellow">#F59E0B</color>    <!-- Amber 500 -->
 
     <!-- Shadow overlay -->
     <color name="scrim">#80000000</color>
