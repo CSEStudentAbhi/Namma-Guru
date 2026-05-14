@@ -63,6 +63,7 @@ class HomeFragment : Fragment() {
     private fun setupAdapters() {
         guruAdapter = GuruAdapter { guru ->
             val intent = android.content.Intent(requireContext(), com.example.nimma_guru.activities.GuruProfileActivity::class.java).apply {
+                putExtra("guruId", guru.guruId)
                 putExtra("name", guru.name)
                 putExtra("skills", guru.skills.joinToString(", "))
                 putExtra("experience", guru.experience)

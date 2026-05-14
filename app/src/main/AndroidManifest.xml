@@ -50,6 +50,10 @@
             android:name=".activities.GuruProfileActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".activities.HostMeetingActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

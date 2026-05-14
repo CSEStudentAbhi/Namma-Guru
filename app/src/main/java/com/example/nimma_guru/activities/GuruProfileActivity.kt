@@ -20,6 +20,7 @@ class GuruProfileActivity : AppCompatActivity() {
         binding.toolbar.setNavigationOnClickListener { finish() }
 
         // Read extras
+        val guruId = intent.getStringExtra("guruId") ?: ""
         val name = intent.getStringExtra("name") ?: "Guru Profile"
         val skills = intent.getStringExtra("skills") ?: ""
         val experience = intent.getStringExtra("experience") ?: "0"
@@ -57,8 +58,35 @@ class GuruProfileActivity : AppCompatActivity() {
         }
 
         binding.btnConnect.setOnClickListener {
-            Toast.makeText(this, "Session request sent to $name!", Toast.LENGTH_SHORT).show()
-            finish()
+            val user = com.google.firebase.auth.FirebaseAuth.getInstance().currentUser
+            if (user == null) {
+                Toast.makeText(this, "Please log in to request a meeting", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            if (guruId.isEmpty()) {
+                Toast.makeText(this, "Guru ID not found", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            val requestData = hashMapOf(
+                "studentId" to user.uid,
+                "guruId" to guruId,
+                "guruName" to name,
+                "status" to "pending",
+                "timestamp" to com.google.firebase.Timestamp.now()
+            )
+
+            com.google.firebase.firestore.FirebaseFirestore.getInstance()
+                .collection("session_requests")
+                .add(requestData)
+                .addOnSuccessListener {
+                    Toast.makeText(this, "Session request sent to $name!", Toast.LENGTH_SHORT).show()
+                    finish()
+                }
+                .addOnFailureListener { e ->
+                    Toast.makeText(this, "Failed to send request: ${e.message}", Toast.LENGTH_SHORT).show()
+                }
         }
     }
 }

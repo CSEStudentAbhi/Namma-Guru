@@ -32,7 +32,28 @@ class CalendarFragment : Fragment() {
         sessionAdapter = SessionAdapter()
         binding.rvSessions.layoutManager = LinearLayoutManager(requireContext())
         binding.rvSessions.adapter = sessionAdapter
+        
+        checkUserRoleAndSetupFab()
+        
         loadSessions()
+    }
+    
+    private fun checkUserRoleAndSetupFab() {
+        val user = com.google.firebase.auth.FirebaseAuth.getInstance().currentUser
+        if (user != null) {
+            firestore.collection("users").document(user.uid).get()
+                .addOnSuccessListener { doc ->
+                    val role = doc.getString("role") ?: "student"
+                    if (role == "guru") {
+                        binding.fabHostMeeting.visibility = View.VISIBLE
+                        binding.fabHostMeeting.setOnClickListener {
+                            startActivity(android.content.Intent(requireContext(), com.example.nimma_guru.activities.HostMeetingActivity::class.java))
+                        }
+                    } else {
+                        binding.fabHostMeeting.visibility = View.GONE
+                    }
+                }
+        }
     }
 
     private fun loadSessions() {
